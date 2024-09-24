@@ -38,5 +38,5 @@ const Job = (props) => {
     </tr>
   );
 };
-
+// The FormattedDate and FormattedNumber components are used to format the date and number values respectively. The useIntl hook is used to get the current locale and determine if the language is Spanish. The formatSalary function is used to format the salary value. The FormattedMessage component is used to format the million word based on the locale. The Job component receives the offer prop and renders the offer details in a table row. The offer details include the id, name, company, salary, city, date, and views. The date and views values are formatted using the FormattedDate and FormattedNumber components respectively. The formatSalary function is used to format the salary value based on the locale. The Job component is exported as the default component.
 export default Job;
